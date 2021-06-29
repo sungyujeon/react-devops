@@ -28,3 +28,5 @@ jobs:                                # Job 설정
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy
+        run: yarn deploy
