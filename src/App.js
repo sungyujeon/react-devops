@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          테스트(using actions)
+          테스트(changed published dir)
         </p>
         <a
           className="App-link"
